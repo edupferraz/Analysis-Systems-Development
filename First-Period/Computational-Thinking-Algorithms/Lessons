@@ -6,6 +6,17 @@ Lesson 01 (July 28, 2023)
 - The variables type not only assists in logic but also impacts the microprocessors usage.
 - Use of parentheses for precedence.
 
+IN-CLASS EXERCISE: Create a flowchart to add two numbers and then multiply the result of this addition by the first number.
+
 Lesson 02 (July 31, 2023)
 
 - Decision structure of a flowchart.
+
+Lesson 03 (August 04, 2023)
+
+- Exercises to practice flowcharts and pseudocode.
+- "If you don't know what problem an algorithm will solve, some problem exists."
+- Pay attention to input/output and proper use of variables.
+
+IN-CLASS EXERCISE: Create a flowchart to solve a quadratic equation.
+IN-CLASS EXERCISE: Design a flowchart for simulating the calculation of simple or compound interest per month.
