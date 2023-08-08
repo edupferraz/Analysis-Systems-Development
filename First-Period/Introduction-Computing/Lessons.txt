@@ -1,0 +1,51 @@
+Lesson 01 (July 28, 2023)
+
+- Introduction to the subject.
+
+Lesson 02 (July 31, 2023)
+
+- Tasks:
+  - Review Letter Frequencies?! (Harmonics...)
+  - Read texts: History of Computers and History of Linux.
+  - Research hardware structures and operating systems.
+
+Lesson 03 (August 4, 2023)
+
+- Idea recording:
+  - Google Keep
+  - Notion
+  
+- Pomodoro Technique:
+  - Web: Pomofocus
+  - Focus To-Do
+  
+- Task organizer:
+  - Trello
+  - Notion
+
+- Reference organizer:
+  - Zotero
+  
+Lesson 04 (September 7, 2023)
+
+- Introduction to hardware
+  - Hardware - Physical
+  - Software - Cloud
+
+  - Binary prefixes - Names or symbols preceding the units bits and bytes
+
+  - IEC Standard - International Electrotechnical Commission
+  - Input devices x Output devices
+
+  - Computer
+  - Case (Chassis)
+  - Motherboard (MoBo)
+    - Sockets, AGP Slot, PCI Slot
+    - AT (older) and ATX
+      - AT: Limited interior space; Low air circulation; Shutdown on button press after OS message
+      - ATX: Addresses AT issues
+  - Cooler
+  - Hard Disk (HD)
+  - Graphics Card (Video Card)
+  - Sound Card
+  - Optional: Stabilizer and Uninterruptible Power Supply (UPS)
