@@ -39,3 +39,12 @@ IN-CLASS EXERCISE: Exercises of list
 - Vowel or Consonant
 
 ![image](https://github.com/edupferraz/Analysis-Systems-Development/assets/57379069/2f38e01b-2055-4676-86ef-dc46de5dba36)
+
+Lesson 06 (August 14, 2023)
+
+IN-CLASS EXERCISE: List of Exercises on File and Directory Manipulation Commands
+
+- Commands: ls, rm, mkdir, tab, touch, cd
+
+- Tasks:
+ - Fourth List of Exercises on File and Directory Manipulation Commands
