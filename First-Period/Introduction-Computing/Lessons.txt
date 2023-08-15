@@ -26,7 +26,7 @@ Lesson 03 (August 4, 2023)
 - Reference organizer:
   - Zotero
   
-Lesson 04 (September 7, 2023)
+Lesson 04 (August 7, 2023)
 
 - Introduction to hardware
   - Hardware - Physical;
@@ -50,7 +50,7 @@ Lesson 04 (September 7, 2023)
   - Sound Card;
   - Optional: Stabilizer and Uninterruptible Power Supply (UPS);
 
-Lesson 05 (September 11, 2023)
+Lesson 05 (August 11, 2023)
 
 - Introduction to software:
   - Proprietary software - Copying, redistribution or modification is prohibited; license purchase;
@@ -63,3 +63,12 @@ Lesson 05 (September 11, 2023)
       - Freedom to study how the program works;
       - Freedom to redistribute copies, including selling;
       - Freedom to modify the program, and release this information;
+
+Lesson 06 (August 14, 2023)
+
+IN-CLASS EXERCISE: List of Exercises on File and Directory Manipulation Commands
+
+- Commands: ls, rm, mkdir, tab, touch, cd
+
+- Tasks:
+ - Fourth List of Exercises on File and Directory Manipulation Commands
