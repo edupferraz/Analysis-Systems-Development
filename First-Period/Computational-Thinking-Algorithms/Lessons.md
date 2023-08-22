@@ -48,9 +48,9 @@ IN-CLASS EXERCISE: Exercises of list
 Exercise 3: 
 
 Consider that N is an integer and the set A is the set formed by divisors of N.
-
- A = { x | x is an integer divisor of N}
-
+<code>
+ <br> A = { x | x is an integer divisor of N}<br> 
+</code>
  Example: for N=7 we have A = {-7,-1,1,7}
 
 Write an algorithm to input N and a given x. The algorithm must inform whether x belongs to the set A of divisors of N.
@@ -139,7 +139,7 @@ Exercise 5: Implement an algorithm that simulates the output of a three-input AN
    IMPRIMIR "SAÍDA SERÁ IGUAL A 0"
 
  FIM 
-
+<code>
 
 Exercise 6: 
 
@@ -149,4 +149,8 @@ ALGORITMO contagem_impares
  N: real
 INICIO
  SE N % 2 = 0 ENTAO
- 
+
+
+Lesson 06 (08/18/2023)
+- Subprograms
+- Use of Return
