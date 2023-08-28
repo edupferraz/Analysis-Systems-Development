@@ -78,3 +78,24 @@
   - Tab Completion.
   - Superuser.
   - Main Commands.
+ 
+**Class 09 (September 25, 2023) - Correction of lists of previous exercises**
+
+**Class 10 (September 28, 2023) - Redirection and wildcards**
+- Input from a program: Who sends the data to the program - Default: Keyboard
+- Output from a program: Who receives the data from a program - Default: Screen
+- Can be redirected
+  - **>**: Redirect the output to archive
+  - **>>**: Redirect the output but in the end of archive
+  - **<**: Redirect the input to archive
+  - **<<**: Command input is read until the word is typed
+  - **|**: Send command1 output to command2 input for further processing
+ 
+- Wilrdcards used to facilitate operation in text mode
+- Wildcards list:
+  - *: Replaces any numbers of caracters
+  - ?: Replace a single caracter
+  - []: Replaces a character with one of the characters within the
+specified character set; Can be combined
+
+- List of exercise
