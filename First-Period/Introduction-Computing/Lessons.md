@@ -1,11 +1,11 @@
-**Class 01 (August 28, 2023) - Course Introduction**
+**Lesson 01 (August 28, 2023) - Course Introduction**
 
-**Class 02 (August 31, 2023) - Tasks and Research**
+**Lesson 02 (August 31, 2023) - Tasks and Research**
 - Review Letter Frequencies?! (Harmonics...)
 - Read texts: History of Computers and History of Linux.
 - Research hardware structures and operating systems.
 
-**Class 03 (September 4, 2023) - Idea Recording and Techniques**
+**Lesson 03 (September 4, 2023) - Idea Recording and Techniques**
 - Idea recording:
   - Google Keep
   - Notion
@@ -21,7 +21,7 @@
   - Samsung S6 Lite
   - iPad
 
-**Class 04 (September 7, 2023) - Introduction to Hardware**
+**Lesson 04 (September 7, 2023) - Introduction to Hardware**
 - Introduction to hardware:
   - Hardware - Physical
   - Software - Cloud
@@ -41,7 +41,7 @@
   - Sound Card
   - Optional: Stabilizer and Uninterruptible Power Supply (UPS)
 
-**Class 05 (September 11, 2023) - Introduction to Software**
+**Lesson 05 (September 11, 2023) - Introduction to Software**
 - Proprietary software - Copying, redistribution, or modification prohibited; license purchase.
 - Pirate software - Illegal copies; Crime, viruses, lack of support, and developer devaluation.
 - Free software - Founded in 1983, established GNU, a free operating system.
@@ -53,13 +53,13 @@
     - Freedom to redistribute copies, including selling.
     - Freedom to modify the program, and release this information.
 
-**Class 06 (September 14, 2023) - Introduction to Linux**
+**Lesson 06 (September 14, 2023) - Introduction to Linux**
 - Introduction to Linux - List of exercises with basic functions.
 
-**Class 07 (September 18, 2023) - Q&A and Integration**
+**Lesson 07 (September 18, 2023) - Q&A and Integration**
 - Addressing doubts and fostering integration among students.
 
-**Class 08 (September 21, 2023) - Directories and Paths**
+**Lesson 08 (September 21, 2023) - Directories and Paths**
 - Directories:
   - Windows - C:\
   - Linux - FHS (File System Hierarchy)
@@ -79,9 +79,9 @@
   - Superuser.
   - Main Commands.
  
-**Class 09 (September 25, 2023) - Correction of lists of previous exercises**
+**Lesson 09 (September 25, 2023) - Correction of lists of previous exercises**
 
-**Class 10 (September 28, 2023) - Redirection and wildcards**
+**Lesson 10 (September 28, 2023) - Redirection and wildcards**
 - Input from a program: Who sends the data to the program - Default: Keyboard
 - Output from a program: Who receives the data from a program - Default: Screen
 - Can be redirected
