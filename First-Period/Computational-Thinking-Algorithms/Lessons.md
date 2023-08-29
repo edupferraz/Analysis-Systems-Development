@@ -1,18 +1,18 @@
-Lesson 01 (July 28, 2023)
+**Class 01 (July 28, 2023) - Subject Introduction**
 
 - Variables can be defined as storage in memory (Microprocessor & RAM Memory).
 - Microprocessor has the ability to process low-level functions.
- -Assignment operator (=).
-- The variables type not only assists in logic but also impacts the microprocessors usage.
+- Assignment operator (=).
+- The variables type not only assists in logic but also impacts the microprocessor's usage.
 - Use of parentheses for precedence.
 
 IN-CLASS EXERCISE: Create a flowchart to add two numbers and then multiply the result of this addition by the first number.
 
-Lesson 02 (July 31, 2023)
+**Class 02 (July 31, 2023) - Structure a Flowchart**
 
 - Decision structure of a flowchart.
 
-Lesson 03 (August 04, 2023)
+**Class 03 (August 04, 2023) - Algorithmic Problem Solving and Flowchart Design**
 
 - Exercises to practice flowcharts and pseudocode.
 - "If you don't know what problem an algorithm will solve, some problem exists."
@@ -21,136 +21,160 @@ Lesson 03 (August 04, 2023)
 IN-CLASS EXERCISE: Create a flowchart to solve a quadratic equation.
 IN-CLASS EXERCISE: Design a flowchart for simulating the calculation of simple or compound interest per month.
 
-Lesson 04 (August 07, 2023)
+**Class 04 (August 07, 2023) - Logic of Repetition Structures**
 
 - Logic of repetition structures
 
 IN-CLASS EXERCISE: Draw a flowchart to average five numbers
 
-Lesson 05 (August 11, 2023)
+**Lesson 05 (August 11, 2023) -  List of exercises**
 
 IN-CLASS EXERCISE: Exercises of list
 
 - Pythagorean Theorem
   
-![image](https://github.com/edupferraz/Analysis-Systems-Development/assets/57379069/1c9f93dc-7dfb-4b09-9adc-9b0c40cce07c)
+![Pythagorean Theorem](https://github.com/edupferraz/Analysis-Systems-Development/assets/57379069/1c9f93dc-7dfb-4b09-9adc-9b0c40cce07c)
 
-  
 - Vowel or Consonant
 
-![image](https://github.com/edupferraz/Analysis-Systems-Development/assets/57379069/2f38e01b-2055-4676-86ef-dc46de5dba36)
+![Vowel or Consonant](https://github.com/edupferraz/Analysis-Systems-Development/assets/57379069/2f38e01b-2055-4676-86ef-dc46de5dba36)
 
-Lesson 06 (August 14, 2023)
+**Class 06 (August 14, 2023) - List of exercises**
 
 IN-CLASS EXERCISE: Exercises of list
 
-
-Exercise 3: 
+```bash
+Exercise 3:
 
 Consider that N is an integer and the set A is the set formed by divisors of N.
-<code>
- <br> A = { x | x is an integer divisor of N}<br> 
-</code>
- Example: for N=7 we have A = {-7,-1,1,7}
+
+A = { x | x is an integer divisor of N}
+
+Example: for N=7 we have A = {-7,-1,1,7}
 
 Write an algorithm to input N and a given x. The algorithm must inform whether x belongs to the set A of divisors of N.
-  
- ALGORITMO verificar_divisor
+
+```algorithm
+ALGORITHM verificar_divisor
   N: real
   x: real
  
- INICIO
-  LER N
-  LER x
-  SE N % x = 0 ENTAO
-   IMPRIMIR "É um divisor"
-  SENAO
-   IMPRIMIR "Não é um divisor"
- FIM
+BEGIN
+  READ N
+  READ x
+  IF N % x = 0 THEN
+    PRINT "It is a divisor"
+  ELSE
+    PRINT "It is not a divisor"
+  END IF
+END
+```
 
-
+```bash
 Exercise 4:
 
 Consider the two sets A and B defined as follows:
- A = { x ∈ ℕ | N1 ≤ x <N2 } , where N1 and N2 are integers.
- B = { x ∈ ℕ | N3 < x <N4 } , where N3 and N4 are integers.
+A = { x ∈ ℕ | N1 ≤ x <N2 } , where N1 and N2 are integers.
+B = { x ∈ ℕ | N3 < x <N4 } , where N3 and N4 are integers.
 
-Implement an algorithm to read N1, N2, N3, N4 and a value of x. The algorithm must say whether x belongs only to set A, only to set B, belongs to both or does not belong to either. Identify input and output data.
+Implement an algorithm to read N1, N2, N3, N4 and a value of x. The algorithm must say whether x belongs only to set A, only to set B, belongs to both, or does not belong to either.
 
- ALGORITMO verifica_conjunto
+ALGORITHM verifica_conjunto
    N1: real
    N2: real
    N3: real
    N4: real
    x: real
  
- INICIO
-  LER N1
-  LER N2
-  LER N3
-  LER N4
-  LER x
+BEGIN
+   READ N1
+   READ N2
+   READ N3
+   READ N4
+   READ x
  
-  SE N1 < 0 || N2 < 0 || N3 < 0 || N4 < 0 || x < 0 ENTAO 
-   IMPRIMIR "Insira apenas números inteiros"
-   RETORNAR
-  SENAO
-   SE x == N1 || x == N2 && x == N3 || x == N4 ENTAO
-    IMPRIMIR "Pertence a ambos os conjuntos"
-   SENAO SE x == N1 || x == N2 && x != N3 && x != N4 ENTAO
-    IMPRIMIR "Pertence apenas ao conjunto A"
-   SENAO SE x != N1 && x != N2 && x == N3 || x == N4 Entao
-    IMPRIMIR "Pertence apenas ao conjunto B"
-   SENAO
-    IMPRIMIR "Não pertence a nenhum conjunto"
- 
- FIM
-  
-Exercise 5: Implement an algorithm that simulates the output of a three-input AND logic gate. Consider the inputs to be 0 (0 volts) and 5 (5 volts). Reject any different input by asking the user to sign in again.
+   IF N1 < 0 OR N2 < 0 OR N3 < 0 OR N4 < 0 OR x < 0 THEN 
+     PRINT "Insert only integer numbers"
+   ELSE
+     IF (x = N1 OR x = N2) AND (x = N3 OR x = N4) THEN
+       PRINT "Belongs to both sets"
+     ELSE IF (x = N1 OR x = N2) AND (x ≠ N3 AND x ≠ N4) THEN
+       PRINT "Belongs only to set A"
+     ELSE IF (x ≠ N1 AND x ≠ N2) AND (x = N3 OR x = N4) THEN
+       PRINT "Belongs only to set B"
+     ELSE
+       PRINT "Does not belong to any set"
+     END IF
+   END IF
+END
+```
+```bash
+Exercise 5:
 
- ALGORITMO porta_and
+Implement an algorithm that simulates the output of a three-input AND logic gate. Consider the inputs to be 0 (0 volts) and 5 (5 volts). Reject any different input by asking the user to input again.
+
+ALGORITHM porta_and
   PORT1: real
   PORT2: real
   PORT3: real
   
- INICIO 
- 
-  LER PORT1
-  ENQUANTO PORT1 != 0 || PORT1 != 5 FAÇA
-   IMPRIMIR "Insira um valor correto"
-   LER PORT1
-  FIM_ENQUANTO
+BEGIN 
+  READ PORT1
+  WHILE PORT1 ≠ 0 AND PORT1 ≠ 5 DO
+    PRINT "Insert a valid value"
+    READ PORT1
+  END WHILE
   
-  LER PORT2
-  ENQUANTO PORT2 != 0 || PORT2 != 5 FAÇA
-   IMPRIMIR "Insira um valor correto"
-   LER PORT2
-  FIM_ENQUANTO
+  READ PORT2
+  WHILE PORT2 ≠ 0 AND PORT2 ≠ 5 DO
+    PRINT "Insert a valid value"
+    READ PORT2
+  END WHILE
 
-  LER PORT3
-  ENQUANTO PORT3 != 0 || PORT3 != 5 FAÇA
-   IMPRIMIR "Insira um valor correto"
-   LER PORT3
-  FIM_ENQUANTO
+  READ PORT3
+  WHILE PORT3 ≠ 0 AND PORT3 ≠ 5 DO
+    PRINT "Insert a valid value"
+    READ PORT3
+  END WHILE
 
-  SE PORT1 == 5 && PORT2 == 5 && PORT3 == 5 ENTAO
-   IMPRIMIR "SAÍDA SERÁ IGUAL A 1"
-  SENÃO
-   IMPRIMIR "SAÍDA SERÁ IGUAL A 0"
+  IF PORT1 = 5 AND PORT2 = 5 AND PORT3 = 5 THEN
+    PRINT "OUTPUT WILL BE 1"
+  ELSE
+    PRINT "OUTPUT WILL BE 0"
+  END IF
+END
+```
 
- FIM 
-<code>
-
-Exercise 6: 
+```bash
+Exercise 6:
 
 Design an algorithm to print the odd numbers in descending order between a given number N and 1. Use an approach that initially tests whether N is even and odd and then loops down the number so that it is odd in every iteration of the loop.
 
-ALGORITMO contagem_impares
- N: real
-INICIO
- SE N % 2 = 0 ENTAO
+algorithm
+Copy code
+ALGORITHM contagem_impares
+  N: real
+BEGIN
+  IF N % 2 = 0 THEN
+    N ← N - 1
+  END IF
+  
+  WHILE N >= 1 DO
+    PRINT N
+    N ← N - 2
+  END WHILE
+END
+```
 
+**Class 07 (August 18, 2023) - Subprogramas and Use of Return**
 
-Lesson 06 (08/18/2023)
-- Subprograms
-- Use of Return
+- Subprograms: Self-contained, reusable blocks of code within a larger program.
+- Use of Return: is used within a subprogram to send a value back to the point in the program where the subprogram was called.
+
+**Class 08 (August 21, 2023) - List of Exercises**
+
+**Class 09 (August 25, 2023) - List of Exercises**
+- To Complete
+
+**Class 10 (August 28, 2023) - Iniciate Java**
+- 
