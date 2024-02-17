@@ -1,0 +1,23 @@
+# Introdução da Disciplina
+
+- Disciplina obrigatória para outras três matérias
+- Ementa
+    - Paradigma e Organização de Software
+    - Bibliotecas de linguagem e de terceiros
+    - Empacotamento e distribuição de aplicações Java para desktop
+    - Linguagem de modelagem unificada (UML)
+- Exame ENADE
+- Avaliação
+    - 90% - Projeto Prático
+        - Peso 2 - Primeiro projeto
+        - Peso 3 - Segundo projeto
+    - 10% - Participação
+- Ferramentes necessárias para matéria
+    - JDK - Java Development Kit (Sempre LTS)
+    - Grandle - Sistema de automação de projetos
+    - Jetbrains Intellij IDEA (JDK, Grandle e suporte a git)
+- Para modelagem UML
+    - StarUML
+    - Draw.io
+    - Mermaid
+- Realizado o commit via git
