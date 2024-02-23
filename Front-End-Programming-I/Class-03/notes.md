@@ -1,0 +1,33 @@
+# Representação e visualização de dados
+
+- Editor WYSIWG - What You See Is What You Get
+- HTML - Hyper Text Markup Language
+  - Histórico
+    - 1990 - HTML
+    - 1995 - HTML 2.0
+    - 1997 - HTML 3.2
+    - 2014 - HTML 5
+    - 2017 - HTML 5.2
+  - Descreve a estrutura da página
+  - Dizem ao navegador como apresentar o conteúdo
+  - Estrutura
+    - ```<head>``` - Container sobre dados
+      - O que está dentro dessa tag não é mostrado
+      - Principais elementos
+        - ```<title>``` - Define o título da página
+        - ```<style>``` - Definição de estilo
+        - ```<link>``` - Relação entre documento atual e recursos externos
+        - ```<meta>``` - Especica as caracteres e metatags (palavras chaves)
+        - ```<script>``` - Adição de código javascript
+        - ```<base>``` - Define uma URL Base
+    - ```<body>``` - Container para conteúdo
+      - Contêm os elementos visíveis
+      - Posionamento após a tag ```<head>```
+      - Principais elementos
+        - ```<h1> a <h6>``` - Definem títulos (cabeçalhos)
+          - Apenas um ```<h1>``` por documento
+          - Não pular níveis
+        - ```<p>``` - Define um parágrafo
+        - ```<div>``` - Define uma divisão/seção
+       
+    - Realização de um exercício fazendo a primeira página HTML
