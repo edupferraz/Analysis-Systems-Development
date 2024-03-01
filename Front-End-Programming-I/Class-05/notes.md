@@ -20,14 +20,14 @@
     - target="blank" - Cria uma nova janela e qualquer outra irá abrir nessa aba
     - target="_parent" - Abre no quadro pai
 
-  - Inserindo Imagens:
-    - Imagens podem aparecer como elemento em linha ou como imagem de fundo
-    - Principais formatos: PNG, JPG, GIF e SVG
-    - Imagens vetorais podem precisar serem colocados na
-    - ```<img>```: ```<img src="images/arrow.gif" alt="seta apontando pra cima">```
-      - Elemento vazio e de substituição
-      - Atributos obrigatórios src e alt
-        - src="..." - Fornece a localização do arquivo de imagem (URL)
-        - alt="..." - Texto alternativo a sua imagem
+- Inserindo Imagens:
+  - Imagens podem aparecer como elemento em linha ou como imagem de fundo
+  - Principais formatos: PNG, JPG, GIF e SVG
+  - Imagens vetorais podem precisar serem colocados na
+  - ```<img>```: ```<img src="images/arrow.gif" alt="seta apontando pra cima">```
+    - Elemento vazio e de substituição
+    - Atributos obrigatórios src e alt
+      - src="..." - Fornece a localização do arquivo de imagem (URL)
+      - alt="..." - Texto alternativo a sua imagem
+  
     
-      
