@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Ferraz</title>
+
+    <style>
+
+        table, tr, td, th {
+            border: 1px solid black;
+            background: #fff;
+        }
+
+
+        table {
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        #aulas {
+            width: 1000px;
+        }
+
+        #onibus {
+            width: 1300px;
+        }
+
+        #onibus td {
+            padding: 10px;
+        }
+
+        #onibus img {
+            width: 75px;
+        }
+    </style>
+</head>
+<body>
+
+    <table id="aulas">
+        <tr>
+            <td></td>
+            <th colspan="6">DIAS DA SEMANA</th>
+        </tr>
+        <tr>
+            <th rowspan="5">HORÁRIOS</th>
+            <td></td>
+            <th>SEG</th>
+            <th>TER</th>
+            <th>QUA</th>
+            <th>QUI</th>
+            <th>SEX</th>
+        </tr>
+        <tr>
+            <th>18H30</th>
+            <td>RCO786202</td>
+            <td>FEI786202</td>
+            <td>AEI786202</td>
+            <td>EST786202</td>
+            <td>FEI786202</td>
+        </tr>
+        <tr>
+            <th>19h25</th>
+            <td>RCO786202</td>
+            <td>FEI786202</td>
+            <td>AEI786202</td>
+            <td>EST786202</td>
+            <td>FEI786202</td>
+        </tr>
+        <tr>
+            <th>20H40</th>
+            <td>EST786202</td>
+            <td>POO786202</td>
+            <td>RCO786202</td>
+            <td>COE786202</td>
+            <td>POO786202</td>
+        </tr>
+        <tr>
+            <th>21h35</th>
+            <td>EST786202</td>
+            <td>POO786202</td>
+            <td>RCO786202</td>
+            <td>COE786202</td>
+            <td>POO786202</td>
+        </tr>
+    </table>
+    
+    <br>
+
+    <table id="onibus">
+        <tr>
+            <th>Origem</th>
+            <th>Destino</th>
+            <th>Horário de Saída</th>
+            <th>Empresa</th>
+            <th>Logo</th>
+            <th>Classe</th>
+            <th>Tarifa</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td rowspan="10">Florianópolis - SC</td>
+            <td rowspan="2">Porto Alegre - RS</td>
+            <td>00:15</td>
+            <td>Santo Anjo</td>
+            <td><img src="./assets/images/logo/santo-anjo.svg" alt="Logo Empresa Santo Anjo"></td>
+            <td>Semileito</td>
+            <td>R$ 96,98</td>
+            <td><a href="#">Comprar</a></td>
+        </tr>
+        <tr>
+            <td>07:30</td>
+            <td>Eucatur</td>
+            <td><img src="./assets/images/logo/eucatur.svg" alt="Logo Empresa Eucatur"></td>
+            <td>Executivo</td>
+            <td>R$ 119,00</td>
+            <td><a href="#">Comprar</a></td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">São Paulo - SP</td>
+            <td>06:50</td>
+            <td>Catarinense</td>
+            <td><img src="./assets/images/logo/catarinense.svg" alt="Logo Empresa Catarinense"></td>
+            <td>Convencional - DD</td>
+            <td>R$ 159,99</td>
+            <td><a href="#">Comprar</a></td>
+        </tr>
+        <tr>
+            <td>08:00</td>
+            <td>Eucatur</td>
+            <td><img src="./assets/images/logo/eucatur.svg" alt="Logo Empresa Eucatur"></td>
+            <td>Leito</td>
+            <td>R$ 265,91</td>
+            <td><a href="#">Comprar</a></td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Rio de Janeiro - RJ</td>
+            <td>12:30</td>
+            <td>Penha</td>
+            <td><img src="./assets/images/logo/penha.svg" alt="Logo Empresa Penha"></td>
+            <td>Semileito</td>
+            <td>R$ 321,99</td>
+            <td><a href="#">Comprar</a></td>
+        </tr>
+        <tr>
+            <td>08:00</td>
+            <td>Itapemirim</td>
+            <td><img src="./assets/images/logo/itapemirim.svg" alt="Logo Empresa Itapemirim"></td>
+            <td>Convencional</td>
+            <td>R$ 382,11</td>
+            <td><a href="#">Comprar</a></td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Curitiba - PR</td>
+            <td>05:45</td>
+            <td>Nordeste</td>
+            <td><img src="./assets/images/logo/expresso-nordeste.svg" alt="Logo Empresa Expresso Nordeste"></td>
+            <td>Semileito - Space</td>
+            <td>R$ 101,56</td>
+            <td><a href="#">Comprar</a></td>
+        </tr>
+        <tr>
+            <td>06:05</td>
+            <td>Catarinense</td>
+            <td><img src="./assets/images/logo/catarinense.svg" alt="Logo Empresa Catarinense.svg"></td>
+            <td>Leito</td>
+            <td>R$ 109,99</td>
+            <td><a href="#">Comprar</a></td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Balneário Camboriú - SC</td>
+            <td>18:00</td>
+            <td>Reunidas</td>
+            <td><img src="./assets/images/logo/reunidas.svg" alt="Logo Empresa Reunidas"></td>
+            <td>Semi DIreto</td>
+            <td>R$ 37,03</td>
+            <td><a href="#">Comprar</a></td>
+        </tr>
+        <tr>
+            <td>18:15</td>
+            <td>Catarinense</td>
+            <td><img src="./assets/images/logo/catarinense.svg" alt="Logo Empresa Catarinense.svg"></td>
+            <td>Semileito - Direto</td>
+            <td>R$ 42,51</td>
+            <td><a href="#">Comprar</a></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <audio src="./assets/audios/music.mp3" type="audio/mp3" autoplay loop></audio>
+</body>
+</html>
