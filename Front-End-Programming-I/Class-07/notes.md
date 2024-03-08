@@ -1,0 +1,29 @@
+# Formulários
+ - ```<form>``` - Contêiner para to conteúdo de formulário
+ - action="..." - Fornece a URL do aplicativo ou script que será usado para processar o formulário
+ - method="..." (GET/POST) - Especifica as informações que devem ser enviadas
+ - Entradas de texto
+   - ```<input type="text">```
+   - ```<textarea>```
+   - ```<input type="...">```
+ - Atributos principais
+   - name="..." 
+   - value-"..." - Texto padrão (caso nada for digitado)
+   - placeholder="..." - dica sobre o que é pra ser digitado
+   - disabled - previne que o usuário preencha o campo
+   - readonly
+ - Entradas de seleção
+   - ```<input type="radio">``` - Apenas um elemento pode ser selecionado; Todos com o mesmo atributo name
+   - ```<input type="checkbox">```  - Pode selecionar mais que um; Todos com o mesmo atributo name
+   - ```<select>``` 
+   - ```<option>```
+   - ```<optgroup>``` - Insere um menu de rolagem
+ - Entradas de arquivo
+   - ```<input type="file">``` - Entrada de arquivo
+   - ```<input type="time">``` - Entrada de hora
+   - ```<input type="datetime-local">``` - Entrada de data e hora
+ - Entradas numéricas
+   - ```<input type="number">```
+   - ```<input type="range">```
+ - Entrada de cor
+   - ```<input type="color">```
