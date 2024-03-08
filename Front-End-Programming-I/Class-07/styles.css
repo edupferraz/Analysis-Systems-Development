@@ -1,0 +1,28 @@
+body {
+    margin: 2rem 30rem;
+}
+
+fieldset {
+    padding: 15px 30px;
+}
+
+fieldset legend {
+    font-style: bold;
+}
+
+fieldset div{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+fieldset div label { 
+    margin-right: 20px;
+}
+
+fieldset div input { 
+    flex: 1;
+    padding: 4px 10px;
+    border: 0.1px solid rgba(0, 0, 0, 0.336);
+    border-radius: 3px;
+}
