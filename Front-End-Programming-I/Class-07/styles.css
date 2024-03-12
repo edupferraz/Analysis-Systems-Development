@@ -1,28 +1,37 @@
 body {
-    margin: 2rem 30rem;
+    margin: 2rem 30rem 5rem;
 }
 
-fieldset {
+form fieldset {
     padding: 15px 30px;
 }
 
-fieldset legend {
+form fieldset legend {
     font-style: bold;
 }
 
-fieldset div{
+form fieldset div{
     display: flex;
     justify-content: space-between;
     padding: 5px;
 }
 
-fieldset div label { 
+form fieldset div label { 
     margin-right: 20px;
 }
 
-fieldset div input { 
+form fieldset div input { 
     flex: 1;
     padding: 4px 10px;
     border: 0.1px solid rgba(0, 0, 0, 0.336);
     border-radius: 3px;
+}
+
+form > div {
+    margin: 15px 0;
+}
+
+form > div input[type="submit"] {
+    padding: 10px 20px;
+    float: right;
 }
