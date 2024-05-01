@@ -27,9 +27,12 @@ public class Phone {
 
     @Override
     public String toString() {
-        return "Phone{" +
-                "label='" + label + '\'' +
-                ", value='" + value + '\'' +
-                '}';
+        StringBuilder sb = new StringBuilder();
+        sb.append("Label: ");
+        sb.append(this.label);
+        sb.append("Value: ");
+        sb.append(this.value);
+
+        return sb.toString();
     }
 }

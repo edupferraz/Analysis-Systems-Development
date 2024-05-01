@@ -6,7 +6,7 @@ public class Email {
 
     public Email(String label, String value) {
         this.label = label;
-        this.value = value;
+        this.value = setValue(value);
     }
 
     public String getLabel() {
@@ -21,15 +21,27 @@ public class Email {
         return value;
     }
 
-    public void setValue(String value) {
-        this.value = value;
+    public String setValue(String value) {
+
+        String eR = "^[\\w-\\+]+(\\.[\\w]+)*@[\\w-]+(\\.[\\w]+)*(\\.[a-z]{2,})$";
+
+        if (!value.matches(eR)) {
+            this.value = "";
+        } else {
+            this.value = value;
+        }
+
+        return this.value;
     }
 
     @Override
     public String toString() {
-        return "Email{" +
-                "label='" + label + '\'' +
-                ", value='" + value + '\'' +
-                '}';
+        StringBuilder sb = new StringBuilder();
+        sb.append("Label: ");
+        sb.append(this.label);
+        sb.append("Value: ");
+        sb.append(this.value);
+
+        return sb.toString();
     }
 }
