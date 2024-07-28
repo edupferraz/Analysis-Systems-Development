@@ -1,5 +1,5 @@
 package gamecar;
 
-public interface VeiculoAnfibio {
+public interface VeiculoAnfibio extends VeiculoMarinho{
     boolean abrirRecolherRodas();
 }
