@@ -6,12 +6,13 @@ package ads.poo;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.stream.Stream;
 
 public class App {
 
     public static void main(String[] args) {
 
-        // Proguard - Ofuscação
+         /*  Proguard - Ofuscação
 
         //String currentDir = System.getProperty("user.dir");
         //Path path = Path.of(currentDir + "/arquivo.txt");
@@ -20,7 +21,7 @@ public class App {
 
         // Path path = Path.of(args[0]);
 
-        /* System.out.println(path);
+       System.out.println(path);
 
         if (Files.exists(path)) {
             System.out.println(String.format("Arquivo: %s", path.toAbsolutePath()));
@@ -31,9 +32,6 @@ public class App {
         } else {
             System.out.println("Arquivo não encontrado");
         }
-
-        */
-    
         String currentDir = System.getProperty("user.dir");
         Path path = Path.of(currentDir + "/novo.txt");
         
@@ -50,6 +48,21 @@ public class App {
             System.out.println("Arquivo deletado");
         } catch (Exception e) {
             System.err.println("Erro: " + e);
+        }
+
+         */
+
+        String currentDir = System.getProperty("user.dir");
+        Path inicial = Path.of(currentDir);
+
+        try(Stream<Path> paths = Files.walk(inicial)) {
+            paths.forEach(arq -> {
+                int profundidade = inicial.relativize(arq).getNameCount();
+                String sufixo = (Files.isDirectory(arq) ? "" : "." + profundidade);
+                System.out.println(" ".repeat(profundidade) + arq.getFileName() + sufixo);
+            });
+        } catch (Exception e ) {
+            System.out.println(e.getMessage());
         }
     }
 
