@@ -32,9 +32,28 @@
     - Planeje para reutilização
     - Pense!
 
-# Questões para debater
-  - Exemplos (positivos e negativos) que indiquem o impacto do software em nossa sociedade:
-    - Positivo: Praticidade, segurança, acesso a informação
-    - Negativo: Vícios, excesso de informação, vazamento de informações
-  - Por que a conclusão de um software lava tanto tempo?
-  - 
+# Processo de Software
+  - Modelo genérico de processo:
+    - Comunicação
+    - Planejamento
+    - Modelagem
+    - Construção
+    - Entrega
+  - Fluxo de processo:
+    - Linear: cada fase segue de forma sequencial
+    - Iterativo: fases podem ser revisitas e ajustadas
+    - Evolutivo: o produto é desenvolvido em incrementos
+    - Paralelo: múltiplas atividades podem ocorrer simultaneamente
+  - Modelo prescritivo
+    - Cascata
+    - Prototipação
+    - Evolucionários (Espiral)
+    - Unificado (PU)
+  - Agilidade 
+    -  Qual o custo da mudança?
+    -  O que é um processo ágil?
+      -  Guiado pelas descrições do cliente (cenários)
+      -  Feedback frequente do cliente
+      -  Planos com curta duração
+      -  Desenvolvimetno iterativo com foco na construção
+      -  Adaptável
