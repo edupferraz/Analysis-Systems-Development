@@ -1,14 +1,11 @@
 import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Queue;
 import java.util.Scanner;
 
-public class App {
+public class Stack<D extends Number> {
     public static void main(String[] args) {
         // ArrayList<String> queue = new ArrayList<String>();
 
-        Queue<String> q = new ArrayDeque<>();
-
+        ArrayDeque<Object> q = new ArrayDeque<>();
 
         Scanner scanner = new Scanner(System.in);
 
@@ -41,4 +38,5 @@ public class App {
             }
         }
     }
+
 }
