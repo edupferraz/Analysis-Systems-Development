@@ -23,4 +23,11 @@ banco de dados;
     - Atomicidade - todas operações em uma transação são executadas com sucesso ou tudo é desfeito
     - Consistência - execusão de uma transação leva o banco de um estado consistente para outro estado consistente
     - Isolamento - transações podem acontecer de forma concorrente sem qualquer interferência
-    - Durabilidade - ao concluir uma transição, todas modificações geradas serão persistentes
+    - Durabilidade - ao concluir uma transição, todas modificações geradas serão persistente
+   
+- Fases de um projeto de banco de dados
+  - Modelo lógico
+  - Entidade - Coisa ou algo do mundo real que é distinguível de todos os outros objetos
+  - Conjuntos de entidades - Reune entidades do mesmo tipo que compartilha de propriedades/atributos
+  - Superchave - Conjunto de atributos que pode ser usado para identificar unicamente uma entidade
+  - Chave - Superchave da qual não se pode remover quaisquer atributos do conjunto e ainda assim manter a restrição de identificar unicamente uma entidade
