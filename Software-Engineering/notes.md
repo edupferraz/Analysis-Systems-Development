@@ -57,3 +57,9 @@
       -  Planos com curta duração
       -  Desenvolvimetno iterativo com foco na construção
       -  Adaptável
+   
+  # Processos Ágeis
+  - Scrum
+  - eXtreme PRogramming (XP)
+  - Kanban
+  - DevOps
