@@ -60,6 +60,13 @@
    
   # Processos Ágeis
   - Scrum
+    - CRC: Classe, Responsabilidades, Colaboradores
   - eXtreme PRogramming (XP)
   - Kanban
   - DevOps
+
+  - Manifesto para Desenvolvimento Ágil de Software: https://agilemanifesto.org/iso/ptbr/manifesto.html
+
+  - Mission critic: softwares com falhas catastróficas
+  - Sacffolding - Fornecido quando solicitar feedback sobre o protótipo: "Eu gosto...", "Eu gostaria...", "e se..."
+  - Egoless programming
