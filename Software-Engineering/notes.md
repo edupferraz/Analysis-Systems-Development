@@ -70,3 +70,10 @@
   - Mission critic: softwares com falhas catastróficas
   - Sacffolding - Fornecido quando solicitar feedback sobre o protótipo: "Eu gosto...", "Eu gostaria...", "e se..."
   - Egoless programming
+
+  - Manutenção do Software: corretiva (21%), adaptativa (25%), perfectiva (50%) e preventiva (4%)
+  
+  # Pessoas na Engehnharia de Software
+  - Sem uma requipe habilidosa e motivada, o sucesso é improvável (Maxim Pressman)
+  - 
+  
