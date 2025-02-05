@@ -1,0 +1,16 @@
+classDiagram
+    class ExplorerRobot {
+        -String name
+        -Coordinate currentPosition
+        -double direction
+        -int battery
+
+        +move()
+    }
+
+    class Coordinate {
+        -int positionX
+        -int positionY
+    }
+
+    ExplorerRobot --> Coordinate : currentPosition
